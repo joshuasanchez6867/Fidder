@@ -1,11 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './Components/Nav';
+import Pantry from './Components/Pantry';
+
 
 function App() {
   return (
     <div className="App">
-      Hello
+      <NavBar/>
+      <Pantry />
     </div>
   );
 }
