@@ -1,4 +1,9 @@
-.col-3{
+.col-4{
     overflow: scroll;
     height: 100vh;
+    background: purple;
+}
+
+.col-9{
+    background: blue;
 }
